@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/*
+ * Copyright (C) 2014 FIZ Karlsruhe
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.time-facet #timespan-form {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border: 1px #cfcecc;
+  height: auto;
+  font-size: 0.938em;
+}
+
+.time-facet hr {
+  margin-right: 10px;
+}
+
+.time-facet label {
+  font-size: 0.938em;
+}
+
+.time-facet #timespan-form >a.h3 {
+  font-weight: bold;
+  background: none;
+  cursor: default;
+}
+
+.time-facet .day {
+  width: 55px;
+}
+
+.time-facet .month {
+/*   height: 20px; */
+}
+
+.time-facet .year {
+  width: 45px;
+}
+
+.time-facet button {
+  font-size: 80% !important;
+  width: 106px;
+  line-height: 0;
+  margin-right: 3px;
+}
+
+.time-facet input[type="radio"] {
+  margin: 0;
+  margin-right: 4px;
+}
+
+#timespan-form .contextual-help {
+  position: inherit;
+  display: inline-block;
+  margin-left: 3px;
+  top: 5px;
+}
+
+.time-restriction .tooltip {
+  font-size: 13px;
+  line-height: 20px;
+  left: -8%;
+  margin: 5px 10px;
+}
+
+.limitation {
+  margin-left: 16px;
+}
+
+.lists .lists-menu-item {
+  background-color: #EFEBE8;
+  line-height: 28px;
+  margin: 2px 0;
+  position: relative;
+  border-top: 1px solid #EFEBE8;
+  border-bottom: 1px solid #EFEBE8;
+}
+
+.lists .active {
+  background-color: #fff;
+  position: relative;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.lists .lists-menu-item>a.h3 {
+  background: url("VABM6OOCM4KNLZuL0M6f5FUWo7BwfmcYI1SClM4m9J8.png") no-repeat scroll 100% -48px rgba(0, 0, 0, 0);
+  display: block;
+  padding: 0 20px 0 10px;
+  z-index: 10;
+}
+
+.lists .lists-menu-select {
+  height: 45px;
+  line-height: 45px;
+  display: block;
+  padding: 0 20px 0 5px;
+  z-index: 10;
+  font-weight: bold;
+}
+
+.lists .lists-paginator-options {
+  height: 45px;
+  line-height: 45px;
+}
+
+.lists .lists-content .results-paginator-view {
+  background: none;
+}
+
+.lists .lists-content .results-paginator-options {
+  height: 40px;
+  line-height: 40px;
+}
+
+.lists .lists-content .item {
+  padding: 15px 0;
+  position: relative;
+}
+
+.lists .lists-content .facets-item:first-child {
+  margin-top: 14px;
+}
+
+.lists .lists-content .summary-main-wrapper .title a {
+  font-weight: normal;
+  word-wrap: break-word;
+}
+
+.lists .lists-content .summary-main-wrapper .title {
+  max-height: 8em;
+}
+
+.lists .lists-content .title {
+  line-height: 1.1em;
+  margin: 0;
+  max-height: 2.2em;
+  overflow: hidden;
+  padding: 4px 10px 0 0;
+}
+
+.lists .lists-content .item-details {
+  padding: 4px 10px 0 0;
+}
+
+.lists .lists-content .item-description {
+  padding: 10px 10px 0 0;
+}
+
+.lists .lists-header {
+  border-bottom: solid 2px #efebe8;
+}
+
+.lists .span12>div {
+  display: inline-block;
+}
+
+.lists .right-container {
+  line-height: 62px;
+  float: right;
+}
+
+.lists .socialmedia {
+  padding-top:12px;
+}
+
+.lists .page-link:before {
+  margin-top: 22px;
+}
+
+.lists .popup-dialog-title .page-link:before {
+  margin-top: 5px;
+}
+
+.lists .summary img {
+  max-width: 140px;
+  max-height: 105px;
+  display: block;
+  float: none;
+  border: 0;
+  margin: auto;
+}
+
+.lists .popup-dialog-wrapper {
+  margin-top: -48px !important;
+}
+/*
+ * Copyright (C) 2014 FIZ Karlsruhe
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.information .hovercard-info-item {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #a7a7a6;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  color: #3e3a37;
+  display: none;
+  font-family: Calibri,Arial,sans-serif;
+  font-size: 0.875em;
+  line-height: 1em;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 30px;
+  width: 523px;
+  z-index: 10;
+}
+
+.information .hovercard-info-item h4 {
+  background-color: #efebe8;
+  margin: 0;
+  padding: 6px 5px 5px 20px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.information .hovercard-info-item .fieldName {
+  white-space: nowrap;
+  margin-left: 20px;
+  font-weight: bold;
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.information .hovercard-info-item .fieldContent {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 25px;
+  margin: 0;
+  word-wrap: normal;
+  width: 340px;
+}
+
+.information .hovercard-info-item ul span {
+  display: block;
+  float: left;
+  line-height: 25px;
+}
+
+@media (max-width: 767px) {
+  .information .hovercard-info-item {
+    width: 373px;
+  }
+  
+  .information .hovercard-info-item .fieldContent {
+    width: 240px;
+    margin-left: 20px;
+  }
+  
+  .information .hovercard-info-item .fieldName {
+    margin-left: 13px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .information .hovercard-info-item {
+    width: 213px;
+  }
+
+  .information .hovercard-info-item .fieldContent {
+    width: 119px;
+    margin-left: 7px;
+  }
+
+  .information .hovercard-info-item .fieldName {
+    width: 70px;
+    margin-left: 10px;
+  }
+}
+
